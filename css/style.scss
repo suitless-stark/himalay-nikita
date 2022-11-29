@@ -39,7 +39,7 @@ p {
       width: 100%;
       height: 100vh;
       background-image: url("../img/bg-modal.jpg");
-      background-size: 100vw 100vh;
+      background-size: cover;
       background-attachment: fixed;
       position: fixed;
       background-repeat: no-repeat;
@@ -439,6 +439,7 @@ p {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .modal-container {
+    background-attachment: scroll !important;
     background-image: url("../img/bg-modal-small.jpg") !important;
 
     .text {
