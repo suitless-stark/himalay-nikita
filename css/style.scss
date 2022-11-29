@@ -57,8 +57,9 @@ p {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
+        padding-bottom: 150px;
 
         .couple-portrait-modal {
           width: 30%;
@@ -81,6 +82,7 @@ p {
           border-radius: 50px;
           border: none;
           padding: 10px;
+          touch-action: none;
         }
 
         .in-button {
