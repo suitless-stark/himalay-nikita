@@ -5,6 +5,7 @@ var bgAudio = document.querySelector('.bg-audio');
 modalCloseBtn.onclick = function() {
   modal.style.display = "none";
   bgAudio.play();
+  window.scrollTo(0, 0);
   var guestName = document.querySelector('#fullName');
 
   if (guestName.value == "") {
