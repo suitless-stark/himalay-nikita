@@ -81,6 +81,11 @@ p {
           border: none;
           padding: 10px;
           touch-action: none;
+          font-family: century-gothic, sans-serif;
+        }
+
+        input::placeholder {
+          font-family: century-gothic, sans-serif;
         }
 
         .in-button {
